@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+</head>
+<body>
+    <!-- 这个form发起的是post request，action里面的“/”表示的是向根路径发起post请求
+         并且这个“/”跟路径在app.js中的 app.get("/",function(){})的第一个参数里面体现-->
+    <form action="/" method="post">
+        <label for="cityInput">City Name:</label>
+        <input id="" type="text" name="cityName" value="">
+        <button type = "submit">search</button>
+    </form>
+
+</body>
+</html>
